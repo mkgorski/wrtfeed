@@ -14,7 +14,8 @@ define Package/myfeed-orangepi-r1plus
   TITLE:=Custom dependencies for OrangePi R1 Plus board
   DEPENDS:=+myfeed-base +myfeed-usb +myfeed-usb-serial-drivers +myfeed-huawei-LTE \
            +tcpdump +git +nginx +runit +mwan3 \
-           +mosquitto-nossl +libmosquitto-nossl +mosquitto-client-nossl
+           +mosquitto-nossl +libmosquitto-nossl +mosquitto-client-nossl \
+           +wireguard-tools +kmod-wireguard
 endef
 
 define Build/Compile
